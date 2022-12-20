@@ -72,6 +72,7 @@ main {
     padding: 1.2em 6.5em;
     border-radius: 0.9rem;
     font-size: 0.8em;
+    cursor: pointer;
 }
 
 .btn-dark {
@@ -138,4 +139,105 @@ footer {
     text-align: center;
     color: var(--gray-300);
     font-size: 0.6em;
+}
+
+/* Versión para tablet */
+
+@media screen and (max-width: 992px) {
+    
+    main {
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .sec-input {
+        margin: 0;
+        width: 80%;
+    }
+
+    .sec-input textarea {
+        max-width: 100% ;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 1.1em;
+        line-height: 1.6em;
+        color: var(--d-blue-300);
+        background-color: transparent;
+        border: none;
+        outline: none;
+        resize: none;
+    }
+
+    .btn {
+        padding: 1.5em 9em;
+        border-radius: 0.9rem;
+        font-size: 0.8em;
+    }
+
+    .btn-contenedor__encriptar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sec-respuesta {
+        max-width: 992px;
+        width: 70%;
+        margin:0;
+        background-color: #fff;
+        padding: 1em 3em;
+    }
+
+    .sec-respuesta img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        padding: 1.3em 6em;
+        border-radius: 0.9rem;
+        font-size: 0.8em;
+    }
+}
+
+
+/* Versiom modile */
+
+@media screen and (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+    header {
+        margin-left: 1.5em;
+        margin-bottom: 4em;
+    }
+
+    main{
+        display: relative;
+        margin: 0 auto;
+        height: auto;
+    }
+    
+    .sec-input {
+        margin: 0;
+        width: 90%;
+    }
+
+    .btn {
+        padding: 1em 3em;
+        border-radius: 0.9rem;
+        font-size: 0.8em;
+    }
+    .sec-respuesta {
+        max-width: 576px;
+        width: 65%;
+        margin:0;
+        background-color: #fff;
+        padding: 1em 3em;
+    }
 }
