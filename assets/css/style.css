@@ -1,0 +1,50 @@
+:root {
+    --d-blue-100 : #609ED4;
+    --d-blue-200 : #356EA9;
+    --d-blue-300 : #0A3871;
+    --d-blue-400 : #072B61;
+    --d-blue-500 : #052051;
+
+    --l-blue-100 : #F3F5FC;
+    --l-blue-200 : #EFF1FA;
+    --l-blue-300 : #E9ECF8;
+    --l-blue-400 : #AAB2D5;
+    --l-blue-500 : #757FB2;
+
+    --gray-100 : #CED4DA;
+    --gray-200 : #ADB5BD;
+    --gray-300 : #868E96; 
+    --gray-400 : #495057; 
+    --gray-500 : #343A40; 
+}
+
+
+body {
+    background-color: var(--l-blue-200);
+}
+
+main {
+    display: flex;
+    gap:20px;
+}
+
+.sec-input {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.sec-respuesta{
+    background-color: #fff;
+    padding: 13em 2em;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.btn-copiar {
+    display: none;
+}
+
