@@ -139,4 +139,4 @@
 
 ## 📩 Contacto
 🙋Si te interesa ponerte en contacto conmigo podés hacerlo a través de:
-**[LinkedIn ](https://www.linkedin.com/in/mariquenaallosa/) - [Github ](https://github.com/mariquenaallosa)*
+**[LinkedIn ](https://www.linkedin.com/in/mariquenaallosa/) - [Github ](https://github.com/mariquenaallosa)**
