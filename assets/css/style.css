@@ -57,15 +57,24 @@ main {
 
 .sec-input textarea::placeholder {
     color: var(--d-blue-300);
+    margin: 1em;
 }
+
+
+.sec-input textarea.alert-actived {
+    border: red solid 3px;
+    border-radius: 0.8em;
+}
+
 
 .btn-contenedor p {
+    color: var(--gray-500);
     font-size: 0.6em;
+    vertical-align: top;
 }
 
-.btn-contenedor img {
-    width: 1em;
-    height: auto;
+.material-symbols-outlined {
+    font-size: 1.5em;
 }
 
 .btn {
@@ -128,8 +137,40 @@ main {
     line-height: 18px;
 }
 
+.sec-respuesta #txt-output {
+    display: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: var(--gray-400);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}
 
-.btn-copiar {
+.sec-respuesta #contenedor-salida {
+    height: 100%;
+}
+
+.sec-respuesta .respuesta-ed {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.sec-ed {
+
+    padding: 2.3em 2.5em;
+    height: 72vh;
+}
+
+
+#btn-copiar {
     display: none;
 }
 
@@ -144,7 +185,7 @@ footer {
 /* Versión para tablet */
 
 @media screen and (max-width: 992px) {
-    
+
     main {
         height: 75vh;
         display: flex;
@@ -160,7 +201,7 @@ footer {
     }
 
     .sec-input textarea {
-        max-width: 100% ;
+        max-width: 100%;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
         font-size: 1.1em;
@@ -186,7 +227,7 @@ footer {
     .sec-respuesta {
         max-width: 992px;
         width: 70%;
-        margin:0;
+        margin: 0;
         background-color: #fff;
         padding: 1em 3em;
     }
@@ -212,31 +253,33 @@ footer {
     body {
         overflow-x: hidden;
     }
+
     header {
         margin-left: 1.5em;
         margin-bottom: 4em;
     }
 
-    main{
+    main {
         display: relative;
         margin: 0 auto;
         height: auto;
     }
-    
+
     .sec-input {
         margin: 0;
         width: 90%;
     }
 
     .btn {
-        padding: 1em 3em;
+        padding: 1em 3.7em;
         border-radius: 0.9rem;
         font-size: 0.8em;
     }
+
     .sec-respuesta {
         max-width: 576px;
         width: 65%;
-        margin:0;
+        margin: 0;
         background-color: #fff;
         padding: 1em 3em;
     }
