@@ -70,23 +70,22 @@
 
 <div align="center">
 
- ### Vista Desktop
- 
-  ![desktop](https://user-images.githubusercontent.com/99567012/209241554-5d4ead24-d228-4e0f-aa93-cf7881a7a345.jpeg)
-  
- ### Vista Tablet
+### Vista Desktop
+
+![desktop](https://user-images.githubusercontent.com/99567012/209241554-5d4ead24-d228-4e0f-aa93-cf7881a7a345.jpeg)
+
+### Vista Tablet
 
 ![tablet](https://user-images.githubusercontent.com/99567012/209241580-f1ae610f-0d1b-4246-9cff-b98be2bc9628.jpeg)
 
- ### Vista Mobile
- 
+### Vista Mobile
+
 ![mobile](https://user-images.githubusercontent.com/99567012/209241576-948f9bb9-ae8b-41ce-ab1c-a17face3495c.jpeg)
 
-
-  
 </div>
 
 <br><br>
+
 <p>
     Aqui tienes el 
     <a href="https://mariquenaallosa.github.io/ONE-Encriptador/">
@@ -103,7 +102,6 @@
 
 ![Encriptador - 1 Desktop](https://user-images.githubusercontent.com/99567012/209242457-840c376d-b70a-4062-b429-0e7abc59a740.jpg)
 
-
 <h2 align="center">
     <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/books_1f4da.png" width="35">
     Tablero en Trello
@@ -117,7 +115,6 @@
 <p>
     Para organizar y ver los requisitos que debe cumplir el proyecto
 </p>
-
 
 <h2 align="center">
 <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/envelope_2709-fe0f.png" width="35">
@@ -138,5 +135,6 @@
 </p>
 
 ## 📩 Contacto
+
 🙋Si te interesa ponerte en contacto conmigo podés hacerlo a través de:
 **[LinkedIn ](https://www.linkedin.com/in/mariquenaallosa/) - [Github ](https://github.com/mariquenaallosa)**
