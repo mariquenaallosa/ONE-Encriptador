@@ -142,31 +142,33 @@ main {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 1.1em;
-    line-height: 1.6em;
+    line-height: 1.4em;
     color: var(--gray-400);
     background-color: transparent;
     border: none;
     outline: none;
     resize: none;
-}
-
-.sec-respuesta #contenedor-salida {
-    height: 100%;
+    width: 100%;
+    height: 400px;
 }
 
 .sec-respuesta .respuesta-ed {
+    
+}
 
+.sec-respuesta .respuesta-ed {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    
 
 }
 
 .sec-ed {
 
     padding: 2.3em 2.5em;
-    height: 72vh;
+    height: 70vh;
 }
 
 
