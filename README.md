@@ -89,7 +89,7 @@
 <br><br>
 <p>
     Aqui tienes el 
-    <a href="https://metaldev-06.github.io/Encriptador-de-texto-Alura-Challenges-Oracle-ONE/">
+    <a href="https://mariquenaallosa.github.io/ONE-Encriptador/">
         link del proyecto finalizado
     </a>
     para que lo puedas ver
