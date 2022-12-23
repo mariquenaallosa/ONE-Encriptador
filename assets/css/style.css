@@ -35,7 +35,7 @@ main {
 }
 
 .sec-input {
-    width: 50%;
+    width: 60%;
     margin-left: 10%;
     display: flex;
     justify-content: space-around;
@@ -43,7 +43,7 @@ main {
 }
 
 .sec-input textarea {
-    max-width: 700px;
+    max-width: 900px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 1.1em;

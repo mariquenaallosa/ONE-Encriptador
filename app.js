@@ -90,8 +90,7 @@ function desencriptar() {
 // copiar mensaje
 
 function copiar() {
-  let txtCopiar = textareaOut;
-  txtCopiar.select();
+  let copiado = textareaOut.value;
   textarea.value = "";
   textareaOut.style.display = "none";
   btnCopiar.style.display = "none";
@@ -99,13 +98,20 @@ function copiar() {
   contenedorSalida.classList.remove("respuesta-ed");
   contenedorInicial.style.display = "";
   foco();
-  Swal.fire({
-    position: "center",
-    icon: "success",
-    title: "Texto copiado",
-    showConfirmButton: false,
-    timer: 2000,
+  navigator.clipboard.writeText(copiado).then(() => {
+    btnCopiar.textContent = "Copiado ✅";
+    window.setTimeout(() => {
+      btnCopiar.textContent = "Copiar";
+      btnCopiar.classList.remove("btn-copiado");
+    }, 1000);
   });
+  Swal.fire({
+    icon: "success",
+    title: "Copiado",
+    showConfirmButton: false,
+    timer: 1500,
+  });
+  
 }
 
 // verificar si existen mayusculas
